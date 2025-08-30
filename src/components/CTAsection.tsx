@@ -2,7 +2,7 @@ import { Button } from './button'
 
 const CTASection = () => {
   return (
-    <section className="bg-gradient-hero py-20">
+    <section className="bg-gradient-hero py-20" id="contact">
       <div className="container mx-auto px-6 text-center lg:mx-auto lg:max-w-[1188px]">
         <h2 className="mb-6 text-4xl font-bold text-white lg:text-5xl">
           Ready to find your next great hire?
@@ -19,7 +19,7 @@ const CTASection = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-white px-8 py-3 text-lg text-primary hover:bg-white hover:text-primary"
+            className="border-white px-8 py-3 text-lg text-dark-purple hover:bg-white hover:text-primary"
           >
             View Our Services
           </Button>

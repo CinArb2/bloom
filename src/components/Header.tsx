@@ -15,25 +15,24 @@ export default function Header() {
 
           {/* Center: Nav (desktop) */}
           <nav className="hidden items-center gap-8 md:flex">
-            <a className="nav-link" href="#product">
-              Product Tour
-            </a>
-            <a className="nav-link" href="#pricing">
-              Pricing
-            </a>
             <a className="nav-link" href="#about">
               About
             </a>
-            <a className="nav-link" href="#resources">
-              Resources
+            <a className="nav-link" href="#services">
+              Services
+            </a>
+            <a className="nav-link" href="#contact">
+              Contact
             </a>
           </nav>
 
           {/* Right: Actions */}
           <div className="hidden items-center gap-3 md:flex">
             <a
-              href="#get-started"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
               className="rounded-xl bg-tertiary px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-tertiary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+              target="_blank"
+              rel="noreferrer"
             >
               Get Started
             </a>
@@ -75,10 +74,9 @@ export default function Header() {
           <div className="md:hidden">
             <div className="space-y-1 border-t border-slate-200 px-4 pb-4 pt-2">
               {[
-                ['Product Tour', '#product'],
-                ['Pricing', '#pricing'],
                 ['About', '#about'],
-                ['Resources', '#resources']
+                ['Services', '#services'],
+                ['Contact', '#contact']
               ].map(([label, href]) => (
                 <a
                   key={label}
@@ -89,17 +87,11 @@ export default function Header() {
                 </a>
               ))}
               <div className="mt-2 flex gap-2">
-                {/* <a
-                  href="#signin"
-                  className="flex-1 rounded-lg px-3 py-2 text-center text-sm font-medium text-slate-700 hover:bg-slate-100"
-                >
-                  Sign in
-                </a> */}
                 <a
-                  href="#get-started"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
                   className="flex-1 rounded-lg bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white hover:bg-indigo-700"
                 >
-                  Get Started
+                  Get started
                 </a>
               </div>
             </div>

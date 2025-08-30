@@ -45,6 +45,11 @@ const Footer = () => {
                   HR Consulting
                 </a>
               </li>
+              <li>
+                <a href="#" className="transition-colors hover:text-background">
+                  Career Coaching
+                </a>
+              </li>
             </ul>
           </div>
 

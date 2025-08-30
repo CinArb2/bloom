@@ -48,7 +48,11 @@ const AboutSection = () => {
                 </span>
               </div>
             </div>
-            <Button variant="outline" size="lg">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-dark-purple px-8 py-3 text-lg text-dark-purple hover:bg-tertiary hover:text-white"
+            >
               Learn More About Our Process
             </Button>
           </div>

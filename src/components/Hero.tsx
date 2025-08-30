@@ -28,14 +28,20 @@ export default function Hero() {
                 variant="secondary"
                 className="px-8 py-3 text-lg"
               >
-                Get started
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Get started
+                </a>
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white px-8 py-3 text-lg text-dark-purple hover:bg-white hover:text-primary"
+                className="border-white px-8 py-3 text-lg text-dark-purple hover:bg-white/90 hover:text-primary"
               >
-                Learn More
+                <a href="#about">Learn More</a>
               </Button>
               <div className="ml-1 flex items-center gap-3 rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-700">
                 <svg
@@ -66,7 +72,7 @@ export default function Hero() {
               {/* Mock person photo */}
               <div className="relative overflow-hidden rounded-3xl">
                 <img
-                  src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1200&auto=format&fit=crop"
+                  src="./hero-img.webp"
                   alt="Happy teammate"
                   className="aspect-[4/3] w-full object-cover"
                 />
