@@ -22,7 +22,7 @@ All colors MUST be HSL.
     --primary: 267 100% 69%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 180 100% 85%;
+    --secondary: 304 26% 67%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --tertiary-foreground: 267 69% 63%;
@@ -40,8 +40,8 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 267 100% 69%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(267 100% 69%), hsl(180 100% 85%));
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    --gradient-hero: linear-gradient(135deg, hsl(296, 29%, 78%), hsl(289, 61%, 88%));
+    --gradient-card: linear-gradient(180deg, hsl(303, 48%, 84%), hsl(289, 14%, 48%));
 
     --radius: 0.5rem;
 
@@ -61,7 +61,7 @@ All colors MUST be HSL.
 
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --dark-purple: 268 22% 45%;
+    --dark-purple: 304 31% 31%;
   }
 
   .dark {

@@ -36,7 +36,7 @@ const FeaturedSection = () => {
   ]
 
   return (
-    <section id="services" className="bg-background py-20">
+    <section id="services" className="bg-background py-12 lg:py-20">
       <div className="container mx-auto px-6 lg:mx-auto lg:max-w-[1188px]">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-4xl font-bold text-foreground">
@@ -52,10 +52,10 @@ const FeaturedSection = () => {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="border-0 bg-gradient-card shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+              className="rounded-3xl border-0 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
             >
               <CardHeader className="pb-4 text-center">
-                <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-gradient-hero">
+                <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-gradient-card">
                   <feature.icon className="size-8 text-white" />
                 </div>
                 <CardTitle className="text-xl">{feature.title}</CardTitle>
