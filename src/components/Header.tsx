@@ -10,7 +10,7 @@ export default function Header() {
       <header className="sticky top-0 z-30 w-full border-b border-slate-200/60 bg-white/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
           {/* Left: Brand */}
-          <div className="h-[50px] pb-2">
+          <div className="h-[50px] max-w-[100px] pb-2">
             <img src="./logo-1.webp" className="size-full" />
           </div>
 

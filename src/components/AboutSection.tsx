@@ -47,7 +47,13 @@ const AboutSection = () => {
               </div>
             </div>
             <Button size="lg" variant="default" className="px-8 py-3 text-sm">
-              Learn More About Our Process
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn More About Our Process
+              </a>
             </Button>
           </div>
         </div>
