@@ -16,9 +16,10 @@ const AboutSection = () => {
             </h2>
             <p className="mb-6 text-sm leading-8 text-foreground">
               With over a decade of experience in talent acquisition and human
-              resources, Bloom Recruiting and HR has established itself as a
-              trusted partner for companies seeking exceptional talent and
-              candidates pursuing their next career opportunity.
+              resources, Bloom Recruiting & HR is your trusted partner for
+              finding top talent or taking the next step in your career. We
+              combine proven strategies with a personalized approach to deliver
+              results that last.
             </p>
             <div className="mb-8 space-y-4 text-sm">
               <div className="flex items-center space-x-3">
@@ -30,7 +31,7 @@ const AboutSection = () => {
               <div className="flex items-center space-x-3">
                 <div className="size-2 rounded-full bg-gradient-hero"></div>
                 <span className="text-foreground">
-                  500+ successful placements annually
+                  500+ successful placements each year
                 </span>
               </div>
               <div className="flex items-center space-x-3">
@@ -42,7 +43,7 @@ const AboutSection = () => {
               <div className="flex items-center space-x-3">
                 <div className="size-2 rounded-full bg-gradient-hero"></div>
                 <span className="text-foreground">
-                  Industry expertise across 15+ sectors
+                  Expertise across 15+ industries
                 </span>
               </div>
             </div>

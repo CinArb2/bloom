@@ -10,16 +10,16 @@ export default function Hero() {
           {/* Copy */}
           <section className="relative z-10 pt-10">
             <h1 className="text-5xl font-extrabold tracking-tight text-gray-800 sm:text-6xl">
-              The best talent,
+              The right talent,
               <br />
               <span className="bg-gradient-to-r from-green-light to-green-dark bg-clip-text text-transparent">
-                blooming for you
+                blooming with you
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-sm leading-8 text-gray-800">
-              Finding exceptional candidates just got easier with Bloom
-              Recruiting. We connect you with top talent for your staffing
-              needs.
+              Fast, effective hiring solutions designed to help your
+              organization blossom by streamlining sourcing, attracting top
+              talent, and building resilient teams.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
