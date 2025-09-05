@@ -1,9 +1,10 @@
 import AboutSection from './AboutSection'
-import CTASection from './CTAsection'
+import ConsultationSection from './ConsultationSection'
 import FeaturedSection from './FeaturedSection'
 import Footer from './Footer'
 import Header from './Header'
 import Hero from './Hero'
+import TestimonialCard from './Testimonials'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Hero />
       <AboutSection />
       <FeaturedSection />
-      <CTASection />
+      <TestimonialCard />
+      <ConsultationSection />
+      {/* <CTASection /> */}
       <Footer />
     </div>
   )

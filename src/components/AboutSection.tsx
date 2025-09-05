@@ -3,7 +3,7 @@ import { Button } from './button'
 const AboutSection = () => {
   return (
     <section id="about" className="bg-background pb-14 pt-28">
-      <div className="container mx-auto px-6 lg:mx-auto lg:max-w-[1088px]">
+      <div className="container mx-auto max-w-[1000px] px-6 lg:mx-auto lg:px-0">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="relative order-1 lg:order-none lg:w-[400px]">
             <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
@@ -11,7 +11,7 @@ const AboutSection = () => {
             </div>
           </div>
           <div className="pb-10">
-            <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">
+            <h2 className="mb-6 text-3xl font-semibold text-foreground md:text-4xl">
               About Bloom Recruiting and HR
             </h2>
             <p className="mb-6 text-sm leading-8 text-foreground">
@@ -46,11 +46,7 @@ const AboutSection = () => {
                 </span>
               </div>
             </div>
-            <Button
-              size="lg"
-              variant="outline"
-              className="px-8 py-3 text-sm text-dark-purple"
-            >
+            <Button size="lg" variant="default" className="px-8 py-3 text-sm">
               Learn More About Our Process
             </Button>
           </div>

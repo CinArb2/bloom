@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <div className="min-h-screen text-gray-800">
       {/* Hero */}
-      <div className="relative isolate lg:mx-auto lg:max-w-[1188px]">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-12 px-6 py-16 sm:px-6  lg:grid-cols-2 lg:gap-x-12 lg:p-14">
+      <div className="container relative isolate mx-auto max-w-[1150px] lg:mx-auto">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-12 px-6 py-16 sm:px-6  lg:grid-cols-2 lg:gap-x-12">
           {/* Copy */}
           <section className="relative z-10 pt-10">
             <h1 className="text-5xl font-extrabold tracking-tight text-gray-800 sm:text-6xl">
@@ -23,11 +23,7 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Button
-                size="lg"
-                variant="default"
-                className="border-dark-purple px-8 py-3 text-sm text-dark-purple"
-              >
+              <Button size="lg" variant="default" className="px-8 py-3 text-sm">
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
                   target="_blank"
@@ -36,11 +32,7 @@ export default function Hero() {
                   Get started
                 </a>
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white px-8 py-3 text-sm text-dark-purple hover:bg-white/90 hover:text-secondary"
-              >
+              <Button size="lg" variant="outline" className="px-8 py-3 text-sm">
                 <a
                   href="https://calendly.com/bloomrecruitingandhr-info/30min"
                   target="_blank"

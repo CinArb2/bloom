@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
+import { Button } from './button'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="bg-white text-slate-900 lg:mx-auto lg:max-w-[1188px]">
+    <div className="bg-white text-slate-900 lg:mx-auto lg:max-w-[1150px]">
       {/* Header */}
       <header className="sticky top-0 z-30 w-full border-b border-slate-200/60 bg-white/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
           {/* Left: Brand */}
           <div className="h-[50px] pb-2">
             <img src="./logo-1.webp" className="size-full" />
@@ -26,14 +27,15 @@ export default function Header() {
             </a>
             {/* Right: Actions */}
             <div className="hidden items-center gap-3 md:flex">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
-                className="rounded-full border border-dark-purple px-4 py-2 text-sm font-semibold text-dark-purple shadow-sm transition hover:bg-tertiary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Get Started
-              </a>
+              <Button size="lg" variant="default" className="px-4 text-sm">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Get started
+                </a>
+              </Button>
             </div>
           </nav>
 

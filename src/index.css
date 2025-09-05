@@ -67,6 +67,8 @@ All colors MUST be HSL.
     --green-dark: 90 45% 19%;
     --brown-dark: 12.63 61.29% 12.16%;
     --pink-light: 306 43% 92%;
+    --orange-light: 39.38 100% 93.73%;
+    --orange-foreground: 25.71 98.19% 56.67%;
   }
 
   .dark {

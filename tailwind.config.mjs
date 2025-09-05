@@ -59,6 +59,14 @@ export default {
           DEFAULT: 'hsl(var(--brown-dark))',
           foreground: 'hsl(var(--brown-dark))'
         },
+        'orange-light': {
+          DEFAULT: 'hsl(var(--orange-light))',
+          foreground: 'hsl(var(--orange-light))'
+        },
+        'orange-foreground': {
+          DEFAULT: 'hsl(var(--orange-foreground))',
+          foreground: 'hsl(var(--orange-foreground))'
+        },
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))'
