@@ -43,6 +43,22 @@ export default {
           DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))'
         },
+        'green-light': {
+          DEFAULT: 'hsl(var(--green-light))',
+          foreground: 'hsl(var(--green-light))'
+        },
+        'green-dark': {
+          DEFAULT: 'hsl(var(--green-dark))',
+          foreground: 'hsl(var(--green-dark))'
+        },
+        'pink-light': {
+          DEFAULT: 'hsl(var(--pink-light))',
+          foreground: 'hsl(var(--pink-light))'
+        },
+        'brown-dark': {
+          DEFAULT: 'hsl(var(--brown-dark))',
+          foreground: 'hsl(var(--brown-dark))'
+        },
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))'

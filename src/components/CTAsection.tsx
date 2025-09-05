@@ -7,7 +7,7 @@ const CTASection = () => {
         <h2 className="mb-6 text-4xl font-bold text-white lg:text-5xl">
           Ready to find your next great hire?
         </h2>
-        <p className="mx-auto mb-8 max-w-2xl text-xl text-white/90">
+        <p className="mx-auto mb-8 max-w-2xl text-sm text-white/90">
           Join hundreds of companies who trust Bloom Recruiting to connect them
           with exceptional talent. Start your search today.
         </p>
@@ -25,7 +25,7 @@ const CTASection = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-white px-8 py-3 text-lg text-dark-purple hover:bg-white hover:text-primary"
+            className="border-white px-8 py-3 text-sm text-dark-purple hover:bg-white hover:text-primary"
           >
             View Our Services
           </Button>

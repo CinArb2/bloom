@@ -5,16 +5,16 @@ import {
   CardHeader,
   CardTitle
 } from './Card'
-import { Users, Target, Clock, Trophy } from 'lucide-react'
+import { Target, Clock, Trophy } from 'lucide-react'
 
 const FeaturedSection = () => {
   const features = [
-    {
-      icon: Users,
-      title: 'Expert Talent Sourcing',
-      description:
-        'Access our extensive network of qualified professionals across all industries and skill levels.'
-    },
+    // {
+    //   icon: Users,
+    //   title: 'Expert Talent Sourcing',
+    //   description:
+    //     'Access our extensive network of qualified professionals across all industries and skill levels.'
+    // },
     {
       icon: Target,
       title: 'Precision Matching',
@@ -36,32 +36,34 @@ const FeaturedSection = () => {
   ]
 
   return (
-    <section id="services" className="bg-background py-12 lg:py-20">
-      <div className="container mx-auto px-6 lg:mx-auto lg:max-w-[1188px]">
-        <div className="mb-16 text-center">
-          <h2 className="mb-4 text-4xl font-bold text-foreground">
+    <section id="services" className="bg-background pb-12 pt-28 lg:py-20">
+      <div className="container mx-auto max-w-[1000px] rounded-3xl bg-gradient-hero px-6 py-12">
+        <div className="mb-8 text-center">
+          <h2 className="mb-4 pt-10 text-4xl font-bold text-brown-dark">
             Why Choose Bloom Recruiting?
           </h2>
-          <p className="mx-auto max-w-2xl text-xl text-muted-foreground">
+          <p className="mx-auto max-w-2xl text-sm text-brown-dark">
             We combine cutting-edge technology with human expertise to deliver
             exceptional recruiting results for your organization.
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="rounded-3xl border-0 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+              className="rounded-3xl border-0 transition-all duration-300"
             >
               <CardHeader className="pb-4 text-center">
-                <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-gradient-card">
-                  <feature.icon className="size-8 text-white" />
+                <div className="mx-auto flex size-16 items-center justify-center rounded-full">
+                  <feature.icon className="size-8 text-brown-dark" />
                 </div>
-                <CardTitle className="text-xl">{feature.title}</CardTitle>
+                <CardTitle className="text-sm text-brown-dark">
+                  {feature.title}
+                </CardTitle>
               </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-base leading-relaxed">
+              <CardContent className="text-center text-brown-dark">
+                <CardDescription className="text-sm leading-relaxed text-brown-dark">
                   {feature.description}
                 </CardDescription>
               </CardContent>

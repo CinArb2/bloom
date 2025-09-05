@@ -24,19 +24,18 @@ export default function Header() {
             <a className="nav-link" href="#contact">
               Contact
             </a>
+            {/* Right: Actions */}
+            <div className="hidden items-center gap-3 md:flex">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
+                className="rounded-full border border-dark-purple px-4 py-2 text-sm font-semibold text-dark-purple shadow-sm transition hover:bg-tertiary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Get Started
+              </a>
+            </div>
           </nav>
-
-          {/* Right: Actions */}
-          <div className="hidden items-center gap-3 md:flex">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
-              className="rounded-xl bg-dark-purple px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-tertiary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Get Started
-            </a>
-          </div>
 
           {/* Mobile menu button */}
           <button

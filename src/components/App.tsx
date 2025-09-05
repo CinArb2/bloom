@@ -8,7 +8,6 @@ import Hero from './Hero'
 function App() {
   return (
     <div className="">
-      {/* <Landing /> */}
       <Header />
       <Hero />
       <AboutSection />

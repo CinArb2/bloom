@@ -25,7 +25,7 @@ All colors MUST be HSL.
     --secondary: 304 26% 67%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --tertiary-foreground: 267 69% 63%;
+    --tertiary-foreground: 267 70% 81%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -40,7 +40,7 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 267 100% 69%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(296, 29%, 78%), hsl(289, 61%, 88%));
+    --gradient-hero: linear-gradient(135deg, hsl(296 75.3% 94.69%), hsl(0, 0%, 90.29%));
     --gradient-card: linear-gradient(180deg, hsl(303, 48%, 84%), hsl(289, 14%, 48%));
 
     --radius: 0.5rem;
@@ -62,6 +62,11 @@ All colors MUST be HSL.
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     --dark-purple: 304 31% 31%;
+
+    --green-light: 59 54% 67%;
+    --green-dark: 90 45% 19%;
+    --brown-dark: 12.63 61.29% 12.16%;
+    --pink-light: 306 43% 92%;
   }
 
   .dark {
@@ -92,8 +97,8 @@ All colors MUST be HSL.
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 267 100% 69%;
-
-    --gradient-hero: linear-gradient(135deg, hsl(267 100% 69%), hsl(180 100% 85%));
+/**linear-gradient(135deg, hsl(296deg 75.3% 94.69%), hsl(0deg 0% 90.29%))**/
+    --gradient-hero: linear-gradient(135deg, hsl(296 75.3% 94.69%), hsl(0, 0%, 90.29%));
     --gradient-card: linear-gradient(180deg, hsl(222.2 84% 4.9%), hsl(217.2 32.6% 17.5%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
