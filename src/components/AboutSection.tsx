@@ -43,7 +43,7 @@ const AboutSection = () => {
               <div className="flex items-center space-x-3">
                 <div className="size-2 rounded-full bg-gradient-hero"></div>
                 <span className="text-foreground">
-                  Expertise across 15+ industries
+                  Deep expertise across technology and 15 + industries
                 </span>
               </div>
             </div>
