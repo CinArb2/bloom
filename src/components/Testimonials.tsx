@@ -20,14 +20,15 @@ export default function TestimonialCard() {
           </h2>
 
           <p>
-            We struggled for months to find the right candidates. We tried job
-            boards and referrals, but the quality wasn’t there. Partnering with
-            this recruiting company made hiring effortless—they quickly
-            understood our needs and delivered top talent.
+            Bloom Recruiting HR is a top of the line recruiting company that
+            literally saved us in helping us get candidates. We had such a hard
+            time in not just getting candidates but even getting interest in any
+            of our open positions. After failing for years we came to them to
+            help us and the results were through the roof.
           </p>
 
           {/* Body */}
-          <div className="mt-6 flex w-full justify-between space-y-4 text-sm leading-7 text-foreground">
+          <div className="mt-6 flex w-full items-center justify-between space-y-4 text-sm leading-7 text-foreground">
             <div>
               {/* Signature */}
               <div className="pt-4">
@@ -39,9 +40,9 @@ export default function TestimonialCard() {
             </div>
             {/* Image / Right */}
             <div className="">
-              <div className="relative w-[100px] overflow-hidden">
+              <div className="relative w-[100px] overflow-hidden lg:w-[150px]">
                 <img
-                  src="./Den-Rain-Logo.jpg"
+                  src="./logo-2.png"
                   alt="Smiling HR manager portrait"
                   className="block size-full object-fill"
                 />
