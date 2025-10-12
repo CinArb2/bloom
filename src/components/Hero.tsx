@@ -6,9 +6,9 @@ export default function Hero() {
     <div className="min-h-screen text-gray-800">
       {/* Hero */}
       <div className="container relative isolate mx-auto max-w-[1150px] lg:mx-auto">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-12 px-6 py-16 sm:px-6  lg:grid-cols-2 lg:gap-x-12">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-12 py-16 sm:px-6 md:px-6  lg:grid-cols-2 lg:gap-x-12">
           {/* Copy */}
-          <section className="relative z-10 pt-10">
+          <section className="relative z-10 md:pt-10">
             <h1 className="text-5xl font-extrabold tracking-tight text-gray-800 sm:text-6xl">
               The right talent,
               <br />
@@ -54,7 +54,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="mt-10 grid max-w-lg grid-cols-2 gap-6 text-sm text-gray-800 sm:grid-cols-3">
+            <div className="mt-10 grid max-w-lg grid-cols-2 gap-6 text-sm  text-gray-800">
               <Stat label="Avg. time saved" value="8 hrs/week" />
               <Stat label="Candidate response" value="3× higher" />
               <Stat label="Setup time" value="< 15 min" />
@@ -84,7 +84,7 @@ export default function Hero() {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-2xl border border-slate-200 p-4">
+    <div className="w-[150px] rounded-2xl border border-slate-200 p-4 md:w-auto">
       <p className="text-xs uppercase tracking-wide text-gray-800">{label}</p>
       <p className="mt-1 text-lg font-semibold text-gray-800">{value}</p>
     </div>

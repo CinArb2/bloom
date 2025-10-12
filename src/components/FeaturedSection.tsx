@@ -36,8 +36,11 @@ const FeaturedSection = () => {
   ]
 
   return (
-    <section id="services" className="bg-background pb-12 pt-28 lg:py-20">
-      <div className="container mx-auto max-w-[1000px] rounded-3xl bg-gradient-hero px-6 py-12">
+    <section
+      id="services"
+      className="mx-6 bg-background pb-14 md:pt-28 lg:py-20"
+    >
+      <div className="mx-auto max-w-[1000px] rounded-3xl bg-gradient-hero py-12 md:px-6">
         <div className="mb-8 text-center">
           <h2 className="mb-4 pt-10 text-4xl font-bold text-brown-dark">
             Why Choose Bloom Recruiting?

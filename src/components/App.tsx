@@ -15,7 +15,6 @@ function App() {
       <FeaturedSection />
       <TestimonialCard />
       <ConsultationSection />
-      {/* <CTASection /> */}
       <Footer />
     </div>
   )

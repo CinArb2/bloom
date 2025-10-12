@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="bg-orange-light py-16 text-sm text-brown-dark lg:pt-[200px]"
+      className="mt-20 bg-orange-light py-16 text-sm text-brown-dark lg:pt-[200px]"
     >
       <div className="container mx-auto px-6 lg:mx-auto lg:max-w-[1050px]">
         <div className="grid gap-8 md:grid-cols-4">

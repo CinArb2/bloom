@@ -88,12 +88,15 @@ export default function Header() {
                 </a>
               ))}
               <div className="mt-2 flex gap-2">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
-                  className="flex-1 rounded-lg bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white hover:bg-indigo-700"
-                >
-                  Get started
-                </a>
+                <Button size="lg" variant="default" className="px-4 text-sm">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Get started
+                  </a>
+                </Button>
               </div>
             </div>
           </div>

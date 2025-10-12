@@ -4,8 +4,8 @@ import React from 'react'
 // Drop this into your Testimonial section.
 export default function TestimonialCard() {
   return (
-    <section className="w-full">
-      <div className="container mx-auto max-w-[800px] grid-cols-1 items-center gap-10 px-6 py-12 md:px-10 lg:gap-16 lg:py-16">
+    <section className="w-full pb-14">
+      <div className="container mx-auto max-w-[800px] grid-cols-1 items-center gap-10 px-6 md:px-10 lg:gap-16 lg:py-16">
         {/* Copy / Left */}
         <div>
           {/* Eyebrow */}

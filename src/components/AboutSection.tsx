@@ -2,9 +2,9 @@ import { Button } from './button'
 
 const AboutSection = () => {
   return (
-    <section id="about" className="bg-background pb-14 pt-28">
+    <section id="about" className="bg-background pb-14 md:pt-28">
       <div className="container mx-auto max-w-[1000px] px-6 lg:mx-auto lg:px-0">
-        <div className="grid items-center gap-12 lg:grid-cols-2">
+        <div className="grid items-center gap-0 md:gap-12 lg:grid-cols-2">
           <div className="relative order-1 lg:order-none lg:w-[400px]">
             <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
               <img src="./about-us.jpeg" alt="" />

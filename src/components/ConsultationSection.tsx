@@ -3,12 +3,12 @@ import { Button } from './button'
 
 export default function ConsultationSection() {
   return (
-    <section className="w-full bg-background py-16 lg:h-[350px]">
+    <section className="mx-6 bg-background md:py-16 lg:h-[350px]">
       <div className="container relative top-[25px] mx-auto max-w-[734px] rounded-3xl bg-gradient-hero px-6 lg:flex lg:items-center lg:justify-between lg:py-8">
         {/* Left Content */}
-        <div className="w-1/2 max-w-xl">
+        <div className="max-w-xl md:w-1/2">
           {/* Eyebrow */}
-          <div className="inline-flex items-center gap-2 text-sm text-brown-dark">
+          <div className="inline-flex items-center gap-2 pt-9 text-sm text-brown-dark">
             <span className="size-2 rounded-full bg-[#F28A2E]"></span>
             <span>Schedule a Consultation</span>
           </div>
@@ -19,7 +19,7 @@ export default function ConsultationSection() {
           </h2>
 
           {/* Buttons */}
-          <div className="mt-8 flex flex-wrap gap-4 pt-11">
+          <div className="mt-8 flex flex-wrap gap-4 md:pt-11">
             <Button size="lg" variant="default" className="px-8 py-3 text-sm">
               <a
                 href="https://calendly.com/bloomrecruitingandhr-info/30min"
