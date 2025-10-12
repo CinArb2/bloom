@@ -4,7 +4,7 @@ import { Button } from './button'
 export default function ConsultationSection() {
   return (
     <section className="mx-6 bg-background md:mx-12 lg:h-[350px]">
-      <div className="container relative top-[25px] mx-auto max-w-[734px] rounded-3xl bg-gradient-hero px-6 md:flex md:items-center md:justify-between lg:py-8">
+      <div className="container relative top-[25px] mx-auto max-w-[734px] rounded-3xl bg-gradient-hero px-6 md:flex md:items-center md:justify-between lg:top-[100px] lg:py-8">
         {/* Left Content */}
         <div className="max-w-xl py-9 md:w-1/2">
           {/* Eyebrow */}
