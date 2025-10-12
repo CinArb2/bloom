@@ -3,7 +3,7 @@ import { Button } from './button'
 
 export default function Hero() {
   return (
-    <div className="min-h-screen py-16 text-gray-800">
+    <div className="py-16 text-gray-800">
       {/* Hero */}
       <div className="container relative isolate mx-auto max-w-[1150px] lg:mx-auto">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-12 md:px-6  lg:grid-cols-2 lg:gap-x-12">
