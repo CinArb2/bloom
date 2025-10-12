@@ -3,10 +3,10 @@ import { Button } from './button'
 
 export default function Hero() {
   return (
-    <div className="min-h-screen text-gray-800">
+    <div className="min-h-screen py-16 text-gray-800">
       {/* Hero */}
       <div className="container relative isolate mx-auto max-w-[1150px] lg:mx-auto">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-12 py-16 sm:px-6 md:px-6  lg:grid-cols-2 lg:gap-x-12">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-12 md:px-6  lg:grid-cols-2 lg:gap-x-12">
           {/* Copy */}
           <section className="relative z-10 md:pt-10">
             <h1 className="text-5xl font-extrabold tracking-tight text-gray-800 sm:text-6xl">
@@ -22,7 +22,7 @@ export default function Hero() {
               talent, and building resilient teams.
             </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-8 flex max-w-[350px] flex-wrap items-center gap-3">
               <Button size="lg" variant="default" className="px-8 py-3 text-sm">
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
@@ -63,7 +63,7 @@ export default function Hero() {
 
           {/* Art side */}
           <section className="right-8 top-[50px] lg:absolute">
-            <div className="relative mx-auto max-w-[450px] rounded-[36px] lg:ml-6 lg:mr-0">
+            <div className="relative mx-auto rounded-[36px] lg:ml-6 lg:mr-0 lg:max-w-[450px]">
               <div className="relative overflow-hidden rounded-3xl">
                 <video
                   src="./bloom.mp4"

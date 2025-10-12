@@ -38,7 +38,7 @@ const FeaturedSection = () => {
   return (
     <section
       id="services"
-      className="mx-6 bg-background pb-14 md:pt-28 lg:py-20"
+      className="mx-6 bg-background pb-20 md:mx-12 lg:py-20 lg:pt-28"
     >
       <div className="mx-auto max-w-[1000px] rounded-3xl bg-gradient-hero py-12 md:px-6">
         <div className="mb-8 text-center">

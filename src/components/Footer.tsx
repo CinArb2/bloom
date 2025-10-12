@@ -4,7 +4,7 @@ const Footer = () => {
       id="contact"
       className="mt-20 bg-orange-light py-16 text-sm text-brown-dark lg:pt-[200px]"
     >
-      <div className="container mx-auto px-6 lg:mx-auto lg:max-w-[1050px]">
+      <div className="container mx-auto px-6 md:mx-12 md:w-auto lg:mx-auto lg:max-w-[1050px]">
         <div className="grid gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
             <div className="mb-4 flex items-center space-x-2">
