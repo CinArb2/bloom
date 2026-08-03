@@ -1,7 +1,10 @@
 import React from 'react'
 import { Button } from './button'
+import content from '../content.json'
 
 export default function Hero() {
+  const { hero, links } = content
+
   return (
     <div className="py-16 text-gray-800">
       {/* Hero */}
@@ -10,35 +13,25 @@ export default function Hero() {
           {/* Copy */}
           <section className="relative z-10 md:pt-10">
             <h1 className="text-5xl font-extrabold tracking-tight text-gray-800 sm:text-6xl">
-              The right talent,
+              {hero.titleLine1}
               <br />
               <span className="bg-gradient-to-r from-green-light to-green-dark bg-clip-text text-transparent">
-                blooming with you
+                {hero.titleLine2}
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-sm leading-8 text-gray-800">
-              Fast, effective hiring solutions designed to help your
-              organization blossom by streamlining sourcing, attracting top
-              talent, and building resilient teams.
+              {hero.subtitle}
             </p>
 
             <div className="mt-8 flex max-w-[350px] flex-wrap items-center gap-3">
               <Button size="lg" variant="default" className="px-8 py-3 text-sm">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Get started
+                <a href={links.getStartedForm} target="_blank" rel="noreferrer">
+                  {hero.primaryCtaLabel}
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="px-8 py-3 text-sm">
-                <a
-                  href="https://calendly.com/bloomrecruitingandhr-info/30min"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Schedule a call
+                <a href={links.scheduleCall} target="_blank" rel="noreferrer">
+                  {hero.secondaryCtaLabel}
                 </a>
               </Button>
               <div className="ml-1 flex items-center gap-3 rounded-full bg-green-light px-3 py-1 text-xs font-medium text-green-dark">
@@ -50,14 +43,14 @@ export default function Hero() {
                 >
                   <path d="M9 12.75 11.25 15 15 9.75" />
                 </svg>
-                Faster sourcing, happier teams
+                {hero.badge}
               </div>
             </div>
 
             <div className="mt-10 grid max-w-lg grid-cols-2 gap-6 text-sm  text-gray-800">
-              <Stat label="Avg. time saved" value="8 hrs/week" />
-              <Stat label="Candidate response" value="3× higher" />
-              <Stat label="Setup time" value="< 15 min" />
+              {hero.stats.map((stat) => (
+                <Stat key={stat.label} label={stat.label} value={stat.value} />
+              ))}
             </div>
           </section>
 

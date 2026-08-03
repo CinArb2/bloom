@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import { Button } from './button'
+import content from '../content.json'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+  const { header, links } = content
 
   return (
     <div className="bg-white text-slate-900 lg:mx-auto lg:max-w-[1150px]">
@@ -16,24 +18,16 @@ export default function Header() {
 
           {/* Center: Nav (desktop) */}
           <nav className="hidden items-center gap-8 md:flex">
-            <a className="nav-link" href="#about">
-              About
-            </a>
-            <a className="nav-link" href="#services">
-              Services
-            </a>
-            <a className="nav-link" href="#contact">
-              Contact
-            </a>
+            {header.nav.map((item) => (
+              <a key={item.label} className="nav-link" href={item.href}>
+                {item.label}
+              </a>
+            ))}
             {/* Right: Actions */}
             <div className="hidden items-center gap-3 md:flex">
               <Button size="lg" variant="default" className="px-4 text-sm">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Get started
+                <a href={links.getStartedForm} target="_blank" rel="noreferrer">
+                  {header.ctaLabel}
                 </a>
               </Button>
             </div>
@@ -74,27 +68,23 @@ export default function Header() {
         {open && (
           <div className="md:hidden">
             <div className="space-y-1 border-t border-slate-200 px-4 pb-4 pt-2">
-              {[
-                ['About', '#about'],
-                ['Services', '#services'],
-                ['Contact', '#contact']
-              ].map(([label, href]) => (
+              {header.nav.map((item) => (
                 <a
-                  key={label}
-                  href={href}
+                  key={item.label}
+                  href={item.href}
                   className="block rounded-lg px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100"
                 >
-                  {label}
+                  {item.label}
                 </a>
               ))}
               <div className="mt-2 flex gap-2">
                 <Button size="lg" variant="default" className="px-4 text-sm">
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header"
+                    href={links.getStartedForm}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Get started
+                    {header.ctaLabel}
                   </a>
                 </Button>
               </div>

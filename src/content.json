@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "pageTitle": "Bloom Recruiting HR | Top Talent Recruitment Solutions",
+    "description": "Bloom Recruiting HR helps companies attract, hire, and retain top candidates. Let our team save you time and connect you with the right talent fast.",
+    "ogTitle": "Bloom Recruiting HR | Top Talent Recruitment Solutions",
+    "ogDescription": "We specialize in connecting businesses with high-quality candidates. Bloom Recruiting HR delivers proven results in recruitment."
+  },
+
+  "links": {
+    "getStartedForm": "https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header",
+    "scheduleCall": "https://calendly.com/bloomrecruitingandhr-info/30min"
+  },
+
+  "header": {
+    "nav": [
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Get started"
+  },
+
+  "hero": {
+    "titleLine1": "The right talent,",
+    "titleLine2": "blooming with you",
+    "subtitle": "Fast, effective hiring solutions designed to help your organization blossom by streamlining sourcing, attracting top talent, and building resilient teams.",
+    "primaryCtaLabel": "Get started",
+    "secondaryCtaLabel": "Schedule a call",
+    "badge": "Faster sourcing, happier teams",
+    "stats": [
+      { "label": "Avg. time saved", "value": "8 hrs/week" },
+      { "label": "Candidate response", "value": "3× higher" },
+      { "label": "Setup time", "value": "< 15 min" }
+    ]
+  },
+
+  "about": {
+    "heading": "About Bloom Recruiting and HR",
+    "body": "With over a decade of experience in talent acquisition and human resources, Bloom Recruiting & HR is your trusted partner for finding top talent or taking the next step in your career. We combine proven strategies with a personalized approach to deliver results that last.",
+    "highlights": [
+      "10+ years of recruitment excellence",
+      "500+ successful placements each year",
+      "95% client satisfaction rate",
+      "Deep expertise across technology and 15 + industries"
+    ],
+    "ctaLabel": "Learn More About Our Process"
+  },
+
+  "features": {
+    "heading": "Why Choose Bloom Recruiting?",
+    "subtitle": "We combine cutting-edge technology with human expertise to deliver exceptional recruiting results for your organization.",
+    "items": [
+      {
+        "icon": "Target",
+        "title": "Precision Matching",
+        "description": "Our advanced matching algorithm ensures the perfect fit between candidates and your company culture."
+      },
+      {
+        "icon": "Clock",
+        "title": "Rapid Placement",
+        "description": "Reduce time-to-hire with our streamlined process and dedicated recruitment specialists."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Quality Guarantee",
+        "description": "We stand behind our placements with comprehensive vetting and performance guarantees."
+      }
+    ]
+  },
+
+  "testimonial": {
+    "eyebrow": "Client Testimonials",
+    "quote": "They found us the right talent and made hiring effortless",
+    "body": "Bloom Recruiting HR is a top of the line recruiting company that literally saved us in helping us get candidates. We had such a hard time in not just getting candidates but even getting interest in any of our open positions. After failing for years we came to them to help us and the results were through the roof.",
+    "authorName": "Stephen, Owner",
+    "authorTitle": "Rain Basketball | Denver, CA"
+  },
+
+  "consultation": {
+    "eyebrow": "Schedule a Consultation",
+    "heading": "Ready to find your next great hire?",
+    "ctaLabel": "Schedule a call"
+  },
+
+  "cta": {
+    "heading": "Ready to find your next great hire?",
+    "body": "Join hundreds of companies who trust Bloom Recruiting to connect them with exceptional talent. Start your search today.",
+    "primaryCtaLabel": "Schedule a call",
+    "secondaryCtaLabel": "View Our Services"
+  },
+
+  "footer": {
+    "brand": "Bloom Recruiting and HR",
+    "tagline": "Connecting exceptional talent with forward-thinking companies. Your success is our mission.",
+    "contact": {
+      "email": "info@bloomrecruitingandhr.com",
+      "phone": "(949) 394-4324",
+      "address": "8605 Santa Monica BLVD #730920 West Hollywood CA 90069 United States"
+    },
+    "services": {
+      "heading": "Services",
+      "items": [
+        "Executive Search",
+        "Direct Hire",
+        "Contract Staffing",
+        "HR Consulting",
+        "Career Coaching"
+      ]
+    },
+    "company": {
+      "heading": "Company",
+      "items": [
+        "About Us",
+        "Careers",
+        "Privacy Policy",
+        "Terms of Service"
+      ]
+    },
+    "copyright": "© 2025 Bloom Recruiting and HR. All rights reserved."
+  }
+}
