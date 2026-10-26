@@ -1,6 +1,36 @@
 import React from 'react'
 import { Button } from './button'
-import content from '../content.json'
+
+// Page text: edit the wording here
+const content = {
+  hero: {
+    titleLine1: 'Build the team',
+    titleLine2: 'your startup needs',
+    subtitle: 'Bloom Recruiting and HR helps startups set up recruiting the right way, with clear workflows, smart automations and real metrics. Then we find the people to fill those seats, with a specialty in tech and engineering, plus executive, sales and marketing roles.',
+    primaryCtaLabel: 'Get started',
+    secondaryCtaLabel: 'Schedule a call',
+    badge: 'Recruiting and HR, built for startups',
+    stats: [
+      {
+        label: 'Who we help',
+        value: 'Startups'
+      },
+      {
+        label: 'Specialty',
+        value: 'Tech hiring'
+      },
+      {
+        label: 'Also hiring',
+        value: 'Sales + marketing'
+      }
+    ]
+  },
+  links: {
+    getStartedForm: 'https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header',
+    scheduleCall: 'https://calendly.com/bloomrecruitingandhr-info/30min'
+  }
+}
+
 
 export default function Hero() {
   const { hero, links } = content

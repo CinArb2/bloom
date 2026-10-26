@@ -1,4 +1,36 @@
-import content from '../content.json'
+// Page text: edit the wording here
+const content = {
+  footer: {
+    brand: 'Bloom Recruiting and HR',
+    tagline: 'Recruiting and HR consulting that helps startups hire well and grow with confidence.',
+    contact: {
+      email: 'info@bloomrecruitingandhr.com',
+      phone: '(949) 394-4324',
+      address: '8605 Santa Monica BLVD #730920 West Hollywood CA 90069 United States'
+    },
+    services: {
+      heading: 'Services',
+      items: [
+        'Recruiting & HR Consulting',
+        'HR Setup & Advising',
+        'Direct Hire Placements',
+        'Interview Coaching',
+        'Recruiting CRM (coming soon)'
+      ]
+    },
+    company: {
+      heading: 'Company',
+      items: [
+        'About Us',
+        'Careers',
+        'Privacy Policy',
+        'Terms of Service'
+      ]
+    },
+    copyright: '© 2026 Bloom Recruiting and HR. All rights reserved.'
+  }
+}
+
 
 const Footer = () => {
   const { footer } = content

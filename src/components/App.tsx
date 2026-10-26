@@ -4,6 +4,7 @@ import FeaturedSection from './FeaturedSection'
 import Footer from './Footer'
 import Header from './Header'
 import Hero from './Hero'
+import RecentClients from './RecentClients'
 import TestimonialCard from './Testimonials'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <AboutSection />
       <FeaturedSection />
+      <RecentClients />
       <TestimonialCard />
       <ConsultationSection />
       <Footer />

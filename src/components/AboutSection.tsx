@@ -1,5 +1,24 @@
 import { Button } from './button'
-import content from '../content.json'
+
+// Page text: edit the wording here
+const content = {
+  about: {
+    heading: 'About Bloom Recruiting and HR',
+    body: 'Bloom Recruiting and HR was built for startups that are ready to grow but don\'t have a recruiting team yet. We step in to design your hiring process, from job descriptions and structured interviews to scorecards, set up the tools and automations that keep it moving, and put metrics in place so you can see what\'s working. On the HR side, we make sure every new hire has a smooth start, and we\'re there to advise when tougher situations come up, like corrective action or a performance plan.',
+    highlights: [
+      '12+ years in talent acquisition and HR',
+      'Specialty in tech and engineering, plus executive, sales and marketing roles',
+      'Recruiting departments built from the ground up',
+      'Onboarding, offer letters and employee handbooks'
+    ],
+    ctaLabel: 'Tell us about your team'
+  },
+  links: {
+    getStartedForm: 'https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header',
+    scheduleCall: 'https://calendly.com/bloomrecruitingandhr-info/30min'
+  }
+}
+
 
 const AboutSection = () => {
   const { about, links } = content
