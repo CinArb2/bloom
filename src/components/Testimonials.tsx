@@ -1,5 +1,30 @@
 import React from 'react'
-import content from '../content.json'
+
+// Page text: edit the wording here
+const content = {
+  testimonials: {
+    eyebrow: 'Client Testimonials',
+    featured: {
+      quote: 'They found us the right talent and made hiring effortless',
+      body: 'Bloom Recruiting HR is a top of the line recruiting company that literally saved us in helping us get candidates. We had such a hard time in not just getting candidates but even getting interest in any of our open positions. After failing for years we came to them to help us and the results were through the roof.',
+      authorName: 'Stephen, Owner',
+      authorTitle: 'Rain Basketball | Denver, CA'
+    },
+    items: [
+      {
+        quote: 'Rocio was amazing to work with. Very professional, punctual, and fast. Thank you!',
+        authorName: 'Ecare Behavioral Health Institute',
+        authorTitle: 'Fractional Talent Acquisition Manager'
+      },
+      {
+        quote: 'Rocio was fantastic to work with. She coached our candidate with practical guidance and personalized feedback that boosted their confidence and helped them land the job. Communication was smooth, and her approach was professional and effective. Highly recommend her for interview coaching.',
+        authorName: 'Staff Plex',
+        authorTitle: 'Interview coaching'
+      }
+    ]
+  }
+}
+
 
 export default function TestimonialCard() {
   const { testimonials } = content

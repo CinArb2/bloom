@@ -1,5 +1,19 @@
 import { Button } from './button'
-import content from '../content.json'
+
+// Page text: edit the wording here
+const content = {
+  cta: {
+    heading: 'Ready to build your recruiting engine?',
+    body: 'Whether you\'re making your first hires or setting up a full recruiting function, Bloom can help. Schedule a call to talk through where your team is today.',
+    primaryCtaLabel: 'Schedule a call',
+    secondaryCtaLabel: 'View Our Services'
+  },
+  links: {
+    getStartedForm: 'https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header',
+    scheduleCall: 'https://calendly.com/bloomrecruitingandhr-info/30min'
+  }
+}
+
 
 const CTASection = () => {
   const { cta, links } = content

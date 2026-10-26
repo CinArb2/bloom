@@ -1,6 +1,35 @@
 import React, { useState } from 'react'
 import { Button } from './button'
-import content from '../content.json'
+
+// Page text: edit the wording here
+const content = {
+  header: {
+    nav: [
+      {
+        label: 'About',
+        href: '#about'
+      },
+      {
+        label: 'Services',
+        href: '#services'
+      },
+      {
+        label: 'Clients',
+        href: '#clients'
+      },
+      {
+        label: 'Contact',
+        href: '#contact'
+      }
+    ],
+    ctaLabel: 'Get started'
+  },
+  links: {
+    getStartedForm: 'https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header',
+    scheduleCall: 'https://calendly.com/bloomrecruitingandhr-info/30min'
+  }
+}
+
 
 export default function Header() {
   const [open, setOpen] = useState(false)

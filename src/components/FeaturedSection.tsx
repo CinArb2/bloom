@@ -17,7 +17,64 @@ import {
   Check,
   type LucideIcon
 } from 'lucide-react'
-import content from '../content.json'
+
+// Page text: edit the wording here
+const content = {
+  features: {
+    heading: 'How We Help',
+    subtitle: 'Whether you need a recruiting function built from scratch, HR basics in place, or the right person hired, Bloom meets you where your company is today.',
+    items: [
+      {
+        icon: 'Workflow',
+        title: 'Recruiting & HR Consulting',
+        description: 'We build your recruiting department from the ground up so hiring runs smoothly as you grow.',
+        points: [
+          'Hiring workflows and automations',
+          'Job descriptions',
+          'Structured interview process',
+          'Interview scorecards',
+          'Recruiting metrics and reporting'
+        ]
+      },
+      {
+        icon: 'ClipboardCheck',
+        title: 'HR Setup & Advising',
+        description: 'Give every new hire a professional start, and get practical guidance when employee issues come up.',
+        points: [
+          'Onboarding process and checklists',
+          'Employee handbooks and offer letters',
+          'Corrective action guidance',
+          'Performance improvement plans'
+        ]
+      },
+      {
+        icon: 'UserCheck',
+        title: 'Direct Hire Placements',
+        description: 'We find, screen and present the right candidates for your open roles, from engineers to executives to high-ticket sales hires, and you hire them directly onto your team.',
+        points: [
+          'Full-cycle recruiting',
+          'Candidate sourcing',
+          'Interview screens',
+          'Interview coordination',
+          'Support through offer and acceptance'
+        ]
+      },
+      {
+        icon: 'LayoutDashboard',
+        title: 'Bloom Recruiting CRM',
+        badge: 'Coming soon',
+        description: 'A recruiting CRM built from real startup hiring experience, available as a simple monthly subscription.',
+        points: [
+          'Track candidates and open roles',
+          'Built-in workflows',
+          'Hiring metrics at a glance',
+          'Affordable monthly plan'
+        ]
+      }
+    ]
+  }
+}
+
 
 const iconMap: Record<string, LucideIcon> = {
   Target,

@@ -1,4 +1,34 @@
-import content from '../content.json'
+// Page text: edit the wording here
+const content = {
+  recentClients: {
+    eyebrow: 'Recent Clients',
+    heading: 'Recent clients',
+    subtitle: 'A few of the companies we\'ve recently helped build teams and hire.',
+    items: [
+      {
+        name: 'Yieldschool',
+        role: 'Recruiting Consultant',
+        description: 'Built out the recruiting department and filled roles across blockchain, engineering, executive leadership, sales and marketing.'
+      },
+      {
+        name: 'M.Hudson Landscape Design',
+        role: 'Recruiting Consultant',
+        description: 'Created their recruiting department from the ground up and filled open roles.'
+      },
+      {
+        name: 'Mackenzie Wells',
+        role: 'Direct Hire Recruiter',
+        description: 'Made direct hire placements for high-ticket roles.'
+      },
+      {
+        name: 'Ecare Behavioral Health Institute',
+        role: 'Fractional Talent Acquisition Manager',
+        description: 'Built the recruiting department\'s workflows, helped set up their applicant tracking system (ATS), and ran recruiting from job postings and sourcing to candidate management.'
+      }
+    ]
+  }
+}
+
 
 const RecentClients = () => {
   const { recentClients } = content

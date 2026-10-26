@@ -1,6 +1,19 @@
 import React from 'react'
 import { Button } from './button'
-import content from '../content.json'
+
+// Page text: edit the wording here
+const content = {
+  consultation: {
+    eyebrow: 'Schedule a Consultation',
+    heading: 'Ready to build your recruiting engine?',
+    ctaLabel: 'Schedule a call'
+  },
+  links: {
+    getStartedForm: 'https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header',
+    scheduleCall: 'https://calendly.com/bloomrecruitingandhr-info/30min'
+  }
+}
+
 
 export default function ConsultationSection() {
   const { consultation, links } = content
