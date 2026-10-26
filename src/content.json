@@ -1,7 +1,7 @@
 {
   "meta": {
     "pageTitle": "Bloom Recruiting and HR | Recruiting & HR Consulting for Startups",
-    "description": "Bloom Recruiting and HR helps startups build their recruiting function from the ground up: workflows, automations, metrics, onboarding and HR essentials, plus direct hire placements.",
+    "description": "Bloom Recruiting and HR helps startups build their recruiting function from the ground up: workflows, automations, metrics, onboarding and HR essentials, plus direct hire placements in tech, sales and marketing.",
     "ogTitle": "Bloom Recruiting and HR | Recruiting & HR Consulting for Startups",
     "ogDescription": "Recruiting and HR consulting for startups, full-cycle and direct hire placements, and a recruiting CRM built for growing teams."
   },
@@ -29,7 +29,7 @@
   "hero": {
     "titleLine1": "Build the team",
     "titleLine2": "your startup needs",
-    "subtitle": "Bloom Recruiting and HR helps startups set up recruiting the right way, with clear workflows, smart automations and real metrics, and then finds the people to fill those seats through full-cycle and direct hire placements.",
+    "subtitle": "Bloom Recruiting and HR helps startups set up recruiting the right way, with clear workflows, smart automations and real metrics. Then we find the people to fill those seats, with a specialty in tech, sales and marketing roles.",
     "primaryCtaLabel": "Get started",
     "secondaryCtaLabel": "Schedule a call",
     "badge": "Recruiting and HR, built for startups",
@@ -39,12 +39,12 @@
         "value": "Startups"
       },
       {
-        "label": "What we build",
-        "value": "Recruiting + HR"
+        "label": "Specialty",
+        "value": "Tech hiring"
       },
       {
-        "label": "How we hire",
-        "value": "Direct hire"
+        "label": "Also hiring",
+        "value": "Sales + marketing"
       }
     ]
   },
@@ -53,11 +53,16 @@
     "body": "Bloom Recruiting and HR was built for startups that are ready to grow but don't have a recruiting team yet. We step in to design your hiring process, set up the tools and automations that keep it moving, and put metrics in place so you can see what's working. On the HR side, we make sure every new hire has a smooth start, with offer letters, onboarding and an employee handbook ready to go.",
     "highlights": [
       "10+ years in talent acquisition and HR",
+      "Specialty in tech, high-ticket sales and marketing roles",
       "Recruiting departments built from the ground up",
-      "Full-cycle recruiting, from job intake to signed offer",
       "Onboarding, offer letters and employee handbooks"
     ],
-    "ctaLabel": "Tell us about your team"
+    "ctaLabel": "Tell us about your team",
+    "clientsLabel": "Recent clients",
+    "clients": [
+      "Ecare Behavioral Health Institute",
+      "MHudson Landscape Design"
+    ]
   },
   "features": {
     "heading": "How We Help",
@@ -88,7 +93,7 @@
       {
         "icon": "UserCheck",
         "title": "Direct Hire Placements",
-        "description": "We find, screen and present the right candidates for your open roles, and you hire them directly onto your team.",
+        "description": "We find, screen and present the right candidates for your open roles, especially in tech, sales and marketing, and you hire them directly onto your team.",
         "points": [
           "Full-cycle recruiting",
           "Candidate sourcing and screening",
@@ -109,13 +114,6 @@
         ]
       }
     ]
-  },
-  "testimonial": {
-    "eyebrow": "Client Testimonials",
-    "quote": "They found us the right talent and made hiring effortless",
-    "body": "Bloom Recruiting HR is a top of the line recruiting company that literally saved us in helping us get candidates. We had such a hard time in not just getting candidates but even getting interest in any of our open positions. After failing for years we came to them to help us and the results were through the roof.",
-    "authorName": "Stephen, Owner",
-    "authorTitle": "Rain Basketball | Denver, CA"
   },
   "consultation": {
     "eyebrow": "Schedule a Consultation",
@@ -156,5 +154,26 @@
       ]
     },
     "copyright": "© 2026 Bloom Recruiting and HR. All rights reserved."
+  },
+  "testimonials": {
+    "eyebrow": "Client Testimonials",
+    "featured": {
+      "quote": "They found us the right talent and made hiring effortless",
+      "body": "Bloom Recruiting HR is a top of the line recruiting company that literally saved us in helping us get candidates. We had such a hard time in not just getting candidates but even getting interest in any of our open positions. After failing for years we came to them to help us and the results were through the roof.",
+      "authorName": "Stephen, Owner",
+      "authorTitle": "Rain Basketball | Denver, CA"
+    },
+    "items": [
+      {
+        "quote": "Rocio was amazing to work with. Very professional, punctual, and fast. Thank you!",
+        "authorName": "Ecare Behavioral Health Institute",
+        "authorTitle": "Fractional Talent Acquisition Manager"
+      },
+      {
+        "quote": "Rocio was fantastic to work with. She coached our candidate with practical guidance and personalized feedback that boosted their confidence and helped them land the job.",
+        "authorName": "Staff Plex",
+        "authorTitle": "Interview coaching"
+      }
+    ]
   }
 }
