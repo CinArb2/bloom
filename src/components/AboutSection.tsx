@@ -28,16 +28,6 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
-            {about.clients && (
-              <div className="mb-8 text-sm">
-                <p className="mb-2 text-xs uppercase tracking-wide text-foreground">
-                  {about.clientsLabel}
-                </p>
-                <p className="font-medium text-foreground">
-                  {about.clients.join('  ·  ')}
-                </p>
-              </div>
-            )}
             <Button size="lg" variant="default" className="px-8 py-3 text-sm">
               <a
                 href={links.getStartedForm}

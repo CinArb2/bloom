@@ -50,19 +50,14 @@
   },
   "about": {
     "heading": "About Bloom Recruiting and HR",
-    "body": "Bloom Recruiting and HR was built for startups that are ready to grow but don't have a recruiting team yet. We step in to design your hiring process, set up the tools and automations that keep it moving, and put metrics in place so you can see what's working. On the HR side, we make sure every new hire has a smooth start, with offer letters, onboarding and an employee handbook ready to go.",
+    "body": "Bloom Recruiting and HR was built for startups that are ready to grow but don't have a recruiting team yet. We step in to design your hiring process, from job descriptions and structured interviews to scorecards, set up the tools and automations that keep it moving, and put metrics in place so you can see what's working. On the HR side, we make sure every new hire has a smooth start, and we're there to advise when tougher situations come up, like corrective action or a performance plan.",
     "highlights": [
-      "10+ years in talent acquisition and HR",
+      "12+ years in talent acquisition and HR",
       "Specialty in tech, high-ticket sales and marketing roles",
       "Recruiting departments built from the ground up",
       "Onboarding, offer letters and employee handbooks"
     ],
-    "ctaLabel": "Tell us about your team",
-    "clientsLabel": "Recent clients",
-    "clients": [
-      "Ecare Behavioral Health Institute",
-      "MHudson Landscape Design"
-    ]
+    "ctaLabel": "Tell us about your team"
   },
   "features": {
     "heading": "How We Help",
@@ -73,21 +68,22 @@
         "title": "Recruiting & HR Consulting",
         "description": "We build your recruiting department from the ground up so hiring runs smoothly as you grow.",
         "points": [
-          "Hiring workflows and interview process",
-          "Automations that save your team time",
-          "Recruiting metrics and reporting",
-          "Getting your first searches underway"
+          "Hiring workflows and automations",
+          "Job descriptions",
+          "Structured interview process",
+          "Interview scorecards",
+          "Recruiting metrics and reporting"
         ]
       },
       {
         "icon": "ClipboardCheck",
-        "title": "HR & Onboarding Setup",
-        "description": "Give every new hire a professional, consistent start from day one.",
+        "title": "HR Setup & Advising",
+        "description": "Give every new hire a professional start, and get practical guidance when employee issues come up.",
         "points": [
           "Onboarding process and checklists",
-          "Employee handbooks",
-          "Offer letter templates",
-          "Connecting recruiting to HR"
+          "Employee handbooks and offer letters",
+          "Corrective action guidance",
+          "Performance improvement plans"
         ]
       },
       {
@@ -96,7 +92,8 @@
         "description": "We find, screen and present the right candidates for your open roles, especially in tech, sales and marketing, and you hire them directly onto your team.",
         "points": [
           "Full-cycle recruiting",
-          "Candidate sourcing and screening",
+          "Candidate sourcing",
+          "Interview screens",
           "Interview coordination",
           "Support through offer and acceptance"
         ]
@@ -138,9 +135,9 @@
       "heading": "Services",
       "items": [
         "Recruiting & HR Consulting",
-        "HR & Onboarding Setup",
+        "HR Setup & Advising",
         "Direct Hire Placements",
-        "Full-Cycle Recruiting",
+        "Interview Coaching",
         "Recruiting CRM (coming soon)"
       ]
     },
@@ -170,7 +167,7 @@
         "authorTitle": "Fractional Talent Acquisition Manager"
       },
       {
-        "quote": "Rocio was fantastic to work with. She coached our candidate with practical guidance and personalized feedback that boosted their confidence and helped them land the job.",
+        "quote": "Rocio was fantastic to work with. She coached our candidate with practical guidance and personalized feedback that boosted their confidence and helped them land the job. Communication was smooth, and her approach was professional and effective. Highly recommend her for interview coaching.",
         "authorName": "Staff Plex",
         "authorTitle": "Interview coaching"
       }
