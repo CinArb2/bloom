@@ -5,25 +5,49 @@ import {
   CardHeader,
   CardTitle
 } from './Card'
-import { Target, Clock, Trophy, Users, type LucideIcon } from 'lucide-react'
+import {
+  Target,
+  Clock,
+  Trophy,
+  Users,
+  Workflow,
+  ClipboardCheck,
+  UserCheck,
+  LayoutDashboard,
+  Check,
+  type LucideIcon
+} from 'lucide-react'
 import content from '../content.json'
 
 const iconMap: Record<string, LucideIcon> = {
   Target,
   Clock,
   Trophy,
-  Users
+  Users,
+  Workflow,
+  ClipboardCheck,
+  UserCheck,
+  LayoutDashboard
+}
+
+type FeatureItem = {
+  icon: string
+  title: string
+  description: string
+  badge?: string
+  points?: string[]
 }
 
 const FeaturedSection = () => {
   const { features } = content
+  const items = features.items as FeatureItem[]
 
   return (
     <section
       id="services"
       className="mx-6 bg-background pb-20 md:mx-12 lg:py-20 lg:pt-28"
     >
-      <div className="mx-auto max-w-[1000px] rounded-3xl bg-gradient-hero py-12 md:px-6">
+      <div className="mx-auto max-w-[1000px] rounded-3xl bg-gradient-hero px-4 py-12 md:px-6">
         <div className="mb-8 text-center">
           <h2 className="mb-4 pt-10 text-4xl font-bold text-brown-dark">
             {features.heading}
@@ -33,26 +57,41 @@ const FeaturedSection = () => {
           </p>
         </div>
 
-        <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {features.items.map((feature, index) => {
+        <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
+          {items.map((feature) => {
             const Icon = iconMap[feature.icon] ?? Target
             return (
               <Card
-                key={index}
-                className="rounded-3xl border-0 transition-all duration-300"
+                key={feature.title}
+                className="rounded-3xl border-0 bg-white/60 transition-all duration-300"
               >
                 <CardHeader className="pb-4 text-center">
                   <div className="mx-auto flex size-16 items-center justify-center rounded-full">
                     <Icon className="size-8 text-brown-dark" />
                   </div>
-                  <CardTitle className="text-sm text-brown-dark">
+                  <CardTitle className="text-base text-brown-dark">
                     {feature.title}
                   </CardTitle>
+                  {feature.badge && (
+                    <span className="mx-auto mt-2 inline-block rounded-full bg-green-light px-3 py-1 text-xs font-medium text-green-dark">
+                      {feature.badge}
+                    </span>
+                  )}
                 </CardHeader>
-                <CardContent className="text-center text-brown-dark">
-                  <CardDescription className="text-sm leading-relaxed text-brown-dark">
+                <CardContent className="text-brown-dark">
+                  <CardDescription className="text-center text-sm leading-relaxed text-brown-dark">
                     {feature.description}
                   </CardDescription>
+                  {feature.points && (
+                    <ul className="mx-auto mt-5 max-w-xs space-y-2 text-sm">
+                      {feature.points.map((point) => (
+                        <li key={point} className="flex items-start gap-2">
+                          <Check className="mt-0.5 size-4 shrink-0 text-green-dark" />
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </CardContent>
               </Card>
             )

@@ -1,73 +1,115 @@
 {
   "meta": {
-    "pageTitle": "Bloom Recruiting HR | Top Talent Recruitment Solutions",
-    "description": "Bloom Recruiting HR helps companies attract, hire, and retain top candidates. Let our team save you time and connect you with the right talent fast.",
-    "ogTitle": "Bloom Recruiting HR | Top Talent Recruitment Solutions",
-    "ogDescription": "We specialize in connecting businesses with high-quality candidates. Bloom Recruiting HR delivers proven results in recruitment."
+    "pageTitle": "Bloom Recruiting and HR | Recruiting & HR Consulting for Startups",
+    "description": "Bloom Recruiting and HR helps startups build their recruiting function from the ground up: workflows, automations, metrics, onboarding and HR essentials, plus direct hire placements.",
+    "ogTitle": "Bloom Recruiting and HR | Recruiting & HR Consulting for Startups",
+    "ogDescription": "Recruiting and HR consulting for startups, full-cycle and direct hire placements, and a recruiting CRM built for growing teams."
   },
-
   "links": {
     "getStartedForm": "https://docs.google.com/forms/d/e/1FAIpQLSc_s9fEMAMxe_DQAmmQOQzsREeb96Lyy2H6mp865xmBNv7NZA/viewform?usp=header",
     "scheduleCall": "https://calendly.com/bloomrecruitingandhr-info/30min"
   },
-
   "header": {
     "nav": [
-      { "label": "About", "href": "#about" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ],
     "ctaLabel": "Get started"
   },
-
   "hero": {
-    "titleLine1": "The right talent",
-    "titleLine2": "blooming with you",
-    "subtitle": "Fast, effective hiring solutions designed to help your organization blossom by streamlining sourcing, attracting top talent, and building resilient teams.",
+    "titleLine1": "Build the team",
+    "titleLine2": "your startup needs",
+    "subtitle": "Bloom Recruiting and HR helps startups set up recruiting the right way, with clear workflows, smart automations and real metrics, and then finds the people to fill those seats through full-cycle and direct hire placements.",
     "primaryCtaLabel": "Get started",
     "secondaryCtaLabel": "Schedule a call",
-    "badge": "Faster sourcing, happier teams",
+    "badge": "Recruiting and HR, built for startups",
     "stats": [
-      { "label": "Avg. time saved", "value": "8 hrs/week" },
-      { "label": "Candidate response", "value": "3× higher" },
-      { "label": "Setup time", "value": "< 15 min" }
-    ]
-  },
-
-  "about": {
-    "heading": "About Bloom Recruiting and HR",
-    "body": "With over a decade of experience in talent acquisition and human resources, Bloom Recruiting & HR is your trusted partner for finding top talent or taking the next step in your career. We combine proven strategies with a personalized approach to deliver results that last.",
-    "highlights": [
-      "10+ years of recruitment excellence",
-      "500+ successful placements each year",
-      "95% client satisfaction rate",
-      "Deep expertise across technology and 15 + industries"
-    ],
-    "ctaLabel": "Learn More About Our Process"
-  },
-
-  "features": {
-    "heading": "Why Choose Bloom Recruiting?",
-    "subtitle": "We combine cutting-edge technology with human expertise to deliver exceptional recruiting results for your organization.",
-    "items": [
       {
-        "icon": "Target",
-        "title": "Precision Matching",
-        "description": "Our advanced matching algorithm ensures the perfect fit between candidates and your company culture."
+        "label": "Who we help",
+        "value": "Startups"
       },
       {
-        "icon": "Clock",
-        "title": "Rapid Placement",
-        "description": "Reduce time-to-hire with our streamlined process and dedicated recruitment specialists."
+        "label": "What we build",
+        "value": "Recruiting + HR"
       },
       {
-        "icon": "Trophy",
-        "title": "Quality Guarantee",
-        "description": "We stand behind our placements with comprehensive vetting and performance guarantees."
+        "label": "How we hire",
+        "value": "Direct hire"
       }
     ]
   },
-
+  "about": {
+    "heading": "About Bloom Recruiting and HR",
+    "body": "Bloom Recruiting and HR was built for startups that are ready to grow but don't have a recruiting team yet. We step in to design your hiring process, set up the tools and automations that keep it moving, and put metrics in place so you can see what's working. On the HR side, we make sure every new hire has a smooth start, with offer letters, onboarding and an employee handbook ready to go.",
+    "highlights": [
+      "10+ years in talent acquisition and HR",
+      "Recruiting departments built from the ground up",
+      "Full-cycle recruiting, from job intake to signed offer",
+      "Onboarding, offer letters and employee handbooks"
+    ],
+    "ctaLabel": "Tell us about your team"
+  },
+  "features": {
+    "heading": "How We Help",
+    "subtitle": "Whether you need a recruiting function built from scratch, HR basics in place, or the right person hired, Bloom meets you where your company is today.",
+    "items": [
+      {
+        "icon": "Workflow",
+        "title": "Recruiting & HR Consulting",
+        "description": "We build your recruiting department from the ground up so hiring runs smoothly as you grow.",
+        "points": [
+          "Hiring workflows and interview process",
+          "Automations that save your team time",
+          "Recruiting metrics and reporting",
+          "Getting your first searches underway"
+        ]
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "HR & Onboarding Setup",
+        "description": "Give every new hire a professional, consistent start from day one.",
+        "points": [
+          "Onboarding process and checklists",
+          "Employee handbooks",
+          "Offer letter templates",
+          "Connecting recruiting to HR"
+        ]
+      },
+      {
+        "icon": "UserCheck",
+        "title": "Direct Hire Placements",
+        "description": "We find, screen and present the right candidates for your open roles, and you hire them directly onto your team.",
+        "points": [
+          "Full-cycle recruiting",
+          "Candidate sourcing and screening",
+          "Interview coordination",
+          "Support through offer and acceptance"
+        ]
+      },
+      {
+        "icon": "LayoutDashboard",
+        "title": "Bloom Recruiting CRM",
+        "badge": "Coming soon",
+        "description": "A recruiting CRM built from real startup hiring experience, available as a simple monthly subscription.",
+        "points": [
+          "Track candidates and open roles",
+          "Built-in workflows",
+          "Hiring metrics at a glance",
+          "Affordable monthly plan"
+        ]
+      }
+    ]
+  },
   "testimonial": {
     "eyebrow": "Client Testimonials",
     "quote": "They found us the right talent and made hiring effortless",
@@ -75,23 +117,20 @@
     "authorName": "Stephen, Owner",
     "authorTitle": "Rain Basketball | Denver, CA"
   },
-
   "consultation": {
     "eyebrow": "Schedule a Consultation",
-    "heading": "Ready to find your next great hire?",
+    "heading": "Ready to build your recruiting engine?",
     "ctaLabel": "Schedule a call"
   },
-
   "cta": {
-    "heading": "Ready to find your next great hire?",
-    "body": "Join hundreds of companies who trust Bloom Recruiting to connect them with exceptional talent. Start your search today.",
+    "heading": "Ready to build your recruiting engine?",
+    "body": "Whether you're making your first hires or setting up a full recruiting function, Bloom can help. Schedule a call to talk through where your team is today.",
     "primaryCtaLabel": "Schedule a call",
     "secondaryCtaLabel": "View Our Services"
   },
-
   "footer": {
     "brand": "Bloom Recruiting and HR",
-    "tagline": "Connecting exceptional talent with forward-thinking companies. Your success is our mission.",
+    "tagline": "Recruiting and HR consulting that helps startups hire well and grow with confidence.",
     "contact": {
       "email": "info@bloomrecruitingandhr.com",
       "phone": "(949) 394-4324",
@@ -100,11 +139,11 @@
     "services": {
       "heading": "Services",
       "items": [
-        "Executive Search",
-        "Direct Hire",
-        "Contract Staffing",
-        "HR Consulting",
-        "Career Coaching"
+        "Recruiting & HR Consulting",
+        "HR & Onboarding Setup",
+        "Direct Hire Placements",
+        "Full-Cycle Recruiting",
+        "Recruiting CRM (coming soon)"
       ]
     },
     "company": {
@@ -116,6 +155,6 @@
         "Terms of Service"
       ]
     },
-    "copyright": "© 2025 Bloom Recruiting and HR. All rights reserved."
+    "copyright": "© 2026 Bloom Recruiting and HR. All rights reserved."
   }
 }
